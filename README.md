@@ -1,4 +1,9 @@
 # Atividade Integradora
+## Integrantes
+**Turma: 9**/
+Rayssa Drumond/
+Victoria Dias/
+Fredson Nunes
 ## Objetivo 
 Revisar as propriedades de personalização de elementos, importação de fontes personalizadas, modelo de caixa, contexto dos elementos e posicionamento em camadas.
 ## Instruções
