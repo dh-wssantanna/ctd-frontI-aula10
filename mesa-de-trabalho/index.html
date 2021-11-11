@@ -4,9 +4,111 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet"/>
     <title>Atividade Integradora</title>
     <style type="text/css">
         /* Coloque o código fonte da atividade aqui */
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        box-shadow: none;
+      }
+
+      body {  
+        height: 500px;
+        margin: 0 auto;
+        font-family: Montserrat;
+      }
+
+      .conteudo{
+          margin: 0 auto;
+          
+      }
+
+      .cartao {
+        float: left;
+        width: 130px;
+        height: 250px;
+        padding: 6px;
+        background-color: rgb(203, 233, 223);
+        text-align: center;
+        margin-right: 35px;
+        margin-top: 100px;
+        border-radius: 15px;
+        
+      }
+
+      .cartao__botao {
+        /* padding: 10px; */
+        height: 30px;
+        width: 100px;
+        background-color: cadetblue;
+        border:none;
+        border-radius: 20%;
+        font-weight: 900;
+        font-size: 14px;
+        /* line-height: 1px; */
+        color: white;
+      }
+
+      .cartao__titulo{
+          font-weight: 600;
+          font-size: 16px;
+          color: rgb(49, 47, 146);
+          margin-top: 0;
+          position: relative;
+          top: -50px;
+      }
+
+      .cartao__descricao{
+          font-weight: 400;
+          color:rgb(24, 133, 118);
+          font-size: 14px;
+          position: relative;
+          top: -40px;
+      }
+
+      .cartao__icone{
+          width: 50px;
+          position: relative;
+          top: -50px;
+          margin-bottom: 0px;
+      }
+    
+      .monitor{
+          width: 70px;
+      }
+
+      .note{
+          width: 85px;
+      }
+      .lupa{
+         width: 60px;;
+      }
+
+      .botao1{
+          position: relative;
+          bottom: 30px;
+      }
+
+      .botao2{
+          position: relative;
+          bottom: 12px;
+      }
+
+      .botao3{
+          position: relative;
+          bottom: 6px;
+      }
+
+      .botao4{
+          position: relative;
+          bottom: -12px;
+      }
 
     </style>
 </head>
@@ -14,35 +116,35 @@
     <!-- O código HTML pode ser alterado se considerarem necessário. -->
     <div class="conteudo">
         <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img1.png" alt="">
+            <img class="cartao__icone monitor" src="./imagens/img1.png" alt="">
             <section class="cartao__corpo">
                 <h1 class="cartao__titulo">Nosso Clube de Vantagens</h1>
                 <p class="cartao__descricao">Tenha acesso a benefícios e vantagens exclusivas.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
+                <button class="cartao__botao botao1" href="./">Acesse</button>
             </section>
         </div>
         <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img2.png" alt="">
+            <img class="cartao__icone cel" src="./imagens/img2.png" alt="">
             <section class="cartao__corpo">
                 <h1 class="cartao__titulo">Área do Associado</h1>
                 <p class="cartao__descricao">Área exclusiva para nossos associados.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
+                <button class="cartao__botao botao2" href="./">Acesse</button>
             </section>
         </div>
         <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img3.png" alt="">
+            <img class="cartao__icone note" src="./imagens/img3.png" alt="">
             <section class="cartao__corpo">
                 <h1 class="cartao__titulo">Área do Consultor</h1>
                 <p class="cartao__descricao">Área exclusiva para nossos consultores.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
+                <button class="cartao__botao botao3" href="./">Acesse</button>
             </section>
         </div>
         <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img4.png" alt="">
+            <img class="cartao__icone lupa" src="./imagens/img4.png" alt="">
             <section class="cartao__corpo">
                 <h1 class="cartao__titulo">Rastreio</h1>
                 <p class="cartao__descricao">Monitore seu veículo em tempo real.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
+                <button class="cartao__botao botao4" href="./">Acesse</button>
             </section>
         </div>
     </div>
