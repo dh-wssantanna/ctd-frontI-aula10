@@ -1,4 +1,12 @@
 # Atividade Integradora
+
+## ALUNOS NA RESOLUÇÃO
+- **Adriana Bele**
+- **Hugo Almeida**
+- **Jamile Cruz**
+
+#
+
 ## Objetivo 
 Revisar as propriedades de personalização de elementos, importação de fontes personalizadas, modelo de caixa, contexto dos elementos e posicionamento em camadas.
 ## Instruções
