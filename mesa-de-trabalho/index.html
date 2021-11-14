@@ -1,50 +1,137 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Atividade Integradora</title>
     <style type="text/css">
-        /* Coloque o código fonte da atividade aqui */
+       /* Coloque o código fonte da atividade aqui */
+       @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
 
+* {
+  box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px;
+  margin-left: 100px;
+  max-width: 1920px;
+}
+
+.cartao {
+  border: 5px solid #cfdeea;
+  border-radius: 20px;
+  display: block;
+
+  padding-top: 50px;
+
+  margin: 100px auto;
+
+  background-color: #cfdeea;
+  max-width: 250px;
+  max-height: 400px;
+}
+
+.cartao__corpo {
+  text-align: center;
+  align-items: center;
+  display: inline-block;
+  align-items: center;
+  max-height: 100px 100px;
+  position: relative;
+  top: -100px;
+}
+
+.cartao__icone {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: -150px;
+  height: 200px;
+}
+
+.cartao__titulo {
+  position: relative;
+  top: -80px;
+  max-width: 250px;
+  max-height: 50px;
+
+  color: #045ea9;
+  font-family: 'Montserrat';
+  font-weight: bold;
+}
+.cartao__descricao {
+  display: block;
+  color: #38acb7;
+  font-family: 'Montserrat';
+  font-weight: 300;
+  font-size: 20px;
+  position: relative;
+  top: -50px;
+  max-width: 250px;
+  max-height: 72px;
+}
+.cartao__botao {
+  display: ;
+
+  text-decoration: none;
+  color: white;
+  background-color: #38acb7;
+  padding: 10px 40px;
+  margin-bottom: 50px;
+  border-radius: 50px;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 20px;
+}
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <!-- O código HTML pode ser alterado se considerarem necessário. -->
     <div class="conteudo">
-        <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img1.png" alt="">
-            <section class="cartao__corpo">
-                <h1 class="cartao__titulo">Nosso Clube de Vantagens</h1>
-                <p class="cartao__descricao">Tenha acesso a benefícios e vantagens exclusivas.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
-            </section>
-        </div>
-        <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img2.png" alt="">
-            <section class="cartao__corpo">
-                <h1 class="cartao__titulo">Área do Associado</h1>
-                <p class="cartao__descricao">Área exclusiva para nossos associados.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
-            </section>
-        </div>
-        <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img3.png" alt="">
-            <section class="cartao__corpo">
-                <h1 class="cartao__titulo">Área do Consultor</h1>
-                <p class="cartao__descricao">Área exclusiva para nossos consultores.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
-            </section>
-        </div>
-        <div class="cartao">
-            <img class="cartao__icone" src="./imagens/img4.png" alt="">
-            <section class="cartao__corpo">
-                <h1 class="cartao__titulo">Rastreio</h1>
-                <p class="cartao__descricao">Monitore seu veículo em tempo real.</p>
-                <a class="cartao__botao" href="./">Acesse</a>
-            </section>
-        </div>
+      <div class="cartao">
+        <img class="cartao__icone" src="./imagens/img1.png" alt="" />
+        <section class="cartao__corpo">
+          <h1 class="cartao__titulo">Nosso Clube de vantagens</h1>
+          <p class="cartao__descricao">
+            Tenha acesso a benefícios e vantagens exclusivas.
+          </p>
+          <a class="cartao__botao" href="./">Acesse</a>
+        </section>
+      </div>
+      <div class="cartao">
+        <img class="cartao__icone" src="./imagens/img2.png" alt="" />
+        <section class="cartao__corpo">
+          <h1 class="cartao__titulo">Área do Associado</h1>
+          <p class="cartao__descricao">
+            Área exclusiva para nossos associados.
+          </p>
+          <a class="cartao__botao" href="./">Acesse</a>
+        </section>
+      </div>
+      <div class="cartao">
+        <img class="cartao__icone" src="./imagens/img3.png" alt="" />
+        <section class="cartao__corpo">
+          <h1 class="cartao__titulo">Área do Consultor</h1>
+          <p class="cartao__descricao">
+            Área exclusiva para nossos consultores.
+          </p>
+          <a class="cartao__botao" href="./">Acesse</a>
+        </section>
+      </div>
+      <div class="cartao">
+        <img class="cartao__icone" src="./imagens/img4.png" alt="" />
+        <section class="cartao__corpo">
+          <h1 class="cartao__titulo">Rastreio</h1>
+          <p class="cartao__descricao">Monitore seu veículo em tempo real.</p>
+          <a class="cartao__botao" href="./">Acesse</a>
+        </section>
+      </div>
     </div>
-</body>
+  </body>
 </html>
